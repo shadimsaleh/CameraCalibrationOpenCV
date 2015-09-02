@@ -1,0 +1,14 @@
+﻿Build started 7/7/2015 1:56:06 PM.
+     1>Project "D:\Dropbox\MyCoding\mycpp\CameraCalibrationOpenCV\CameraCalibrationOpenCV\CameraCalibrationOpenCV.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(473): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>Source.cpp(481): error C2664: 'size_t strftime(char *,size_t,const char *,const tm *)' : cannot convert argument 4 from 'tm **' to 'const tm *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Done Building Project "D:\Dropbox\MyCoding\mycpp\CameraCalibrationOpenCV\CameraCalibrationOpenCV\CameraCalibrationOpenCV.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.55
